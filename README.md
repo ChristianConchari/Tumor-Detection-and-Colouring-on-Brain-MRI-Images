@@ -1,10 +1,10 @@
-#Universidad Católica Boliviana “San Pablo”
+# Universidad Católica Boliviana “San Pablo”
 
-##Integrantes:
+## Integrantes:
 
-###Christian LolimasterYT Conchari Cabrera
+### Christian LolimasterYT Conchari Cabrera
 
-###Manuel Ignacio Uzquiano Uzquiano
+### Manuel Ignacio Uzquiano Uzquiano
 
 ***Reporte del proyecto***
 
@@ -28,7 +28,7 @@ independientemente de su tipo o forma con un gran rango de acertación.
 
 **&lt;tumor, contraste, detección, resonancia magnética, función &gt;**
 
-#  **Desarrollo **
+#  **Desarrollo**
 
 El código puede ser dividido en 6 bloques para su funcionamiento.
 
