@@ -1,18 +1,16 @@
-Universidad Católica Boliviana “San Pablo”
+#Universidad Católica Boliviana “San Pablo”
 
-Integrantes:
+##Integrantes:
 
-Christian LolimasterYT Conchari Cabrera
+###Christian LolimasterYT Conchari Cabrera
 
-Manuel Ignacio Uzquiano Uzquiano
-
-Fecha: 5 de junio de 2021
+###Manuel Ignacio Uzquiano Uzquiano
 
 ***Reporte del proyecto***
 
 ***Detección de tumores***
 
-1.  **Abstracto**
+#  **Abstracto**
 
 El objetivo del proyecto fue el desarrollo de un programa en matlab que
 identifique tumores cerebrales en imágenes de resonancia magnética.
@@ -30,7 +28,7 @@ independientemente de su tipo o forma con un gran rango de acertación.
 
 **&lt;tumor, contraste, detección, resonancia magnética, función &gt;**
 
-1.  **Desarrollo **
+#  **Desarrollo **
 
 El código puede ser dividido en 6 bloques para su funcionamiento.
 
