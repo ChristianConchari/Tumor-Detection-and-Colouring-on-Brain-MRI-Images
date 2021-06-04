@@ -1,5 +1,5 @@
 clear; clc; close all;
-IM=imread('I:\Imagenología\MRIBT\BT (77).tif');
+IM=imread('BT\BT (6).tif');
 %------------------------------------------------
 J=imadjust(IM,stretchlim(IM,[.65 .99]),[]);
 UU=rgb2gray(J);
