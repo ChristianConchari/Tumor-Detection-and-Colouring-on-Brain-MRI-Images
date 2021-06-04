@@ -2,7 +2,7 @@
 
 ## Integrantes:
 
-### Christian LolimasterYT Conchari Cabrera
+### Christian Conchari Cabrera
 
 ### Manuel Ignacio Uzquiano Uzquiano
 
