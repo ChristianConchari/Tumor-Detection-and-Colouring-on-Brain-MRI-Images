@@ -81,22 +81,16 @@ El código puede ser dividido en 6 bloques para su funcionamiento.
     > original con el uso del comando “labeloverlay” y puede ser notado
     > de color azul.
 
-![](media/image4.png){width="2.3794739720034994in"
-height="2.172134733158355in"}![](media/image1.png){width="2.1093755468066493in"
-height="2.1854866579177603in"}
+![](media/image4.png)![](media/image1.png)
 
 ***Figura 1. Comparación de los resultados mediante (izquierda) el
 mejoramiento de imágenes oscuras con el método cuadrático ((IM.\^2)/255)
 mientras que a la derecha, con la función de matlab con parámetros
 fijados de (\[0.65 0.99\]).***
 
-![](media/image5.png){width="2.110932852143482in"
-height="1.5537729658792652in"}![](media/image3.png){width="2.066836176727909in"
-height="1.5703904199475065in"}
+![](media/image5.png)![](media/image3.png)
 
-![](media/image2.png){width="2.1473917322834644in"
-height="1.7027296587926508in"}![](media/image6.png){width="2.121583552055993in"
-height="1.6193733595800526in"}
+![](media/image2.png)![](media/image6.png)
 
 ***Figura 2. Comparación del análisis de cambios mediante la derivada de
 las imágenes 5,55,35 y 65 de las cuales se puede observar un
