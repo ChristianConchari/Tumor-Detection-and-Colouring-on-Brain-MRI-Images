@@ -1,20 +1,30 @@
 clear; clc; close all;
-IM=imread('BT\BT (6).tif');
+IM=imread('BT\BT ().tif');
 %------------------------------------------------
+% computes the lower and upper limits that can be used for contrast stretching
+% Adjust image intensity
 J=imadjust(IM,stretchlim(IM,[.65 .99]),[]);
 UU=rgb2gray(J);
 bw=im2bw(J, 0.5);
+% Label connected components in 2-D binary imag
 label=bwlabel(bw);
 %------------------------------------------------
+% Measure properties of image regions
 stats=regionprops(label,'Solidity', 'Area');
+% Obtain Area data
 density=[stats.Solidity];
 area=[stats.Area];
+% Discriminate the density
 hdensity=density>0.2;
+% Find the max value on density data
 maxArea=max(area(hdensity));
+% Find indices and values of nonzero elements
 tumorl=find(area==maxArea);
+% Array elements that are members of set array
 tumor=ismember(label,tumorl);
 %------------------------------------------------
 se=strel('square',8);
+% Morphological Operations
 tumor=imdilate(tumor,se);
 figure(1)
 %------------------------------------------------
